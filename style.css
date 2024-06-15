@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.four{
+    width: 100%;
+    height: 500px;
+}
+.fourbody{
+    width: 80%;
+    height:90% ;
+    display: flex;
+}
+.pink{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(211,122,157);
+    text-align: center;
+    padding-top: 9%;
+}
+.pink h1{
+    font-size: 2.5rem;
+    font-family:'Playfair Display', serif ;
+    color: rgb(1, 1, 49);
+}
+.pink h2{
+    font-size: 2.3rem;
+    font-family:'Noto Sans', sans-serif ;
+}
+.pink p{
+    font-size: 1rem;
+    font-family:'Noto Sans', sans-serif ;
+    padding-block: 5%;
+}
+/* -----------------------------------------tabpanstart-------------------------- */
+.tabs {
+    width: 100%;
+    background-color: #09F;
+    border-radius: 5px 5px 5px 5px;
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    /* overflow: auto; */
+    display: flex;
+  }
+  ul#tabs-nav li {
+    margin: auto;
+    /* float: left; */
+    font-weight: bold;
+    /* margin-right: 2px; */
+    padding: 8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+    cursor: pointer;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    background-color: #08E;
+  }
+  #tabs-nav li a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .tab-content {
+    padding: 10px;
+    border: 5px solid #09F;
+    background-color: #FFF;
+  }
+  /* -----------------------------------tabpan end-------------------------------- */
+  
+
+
+ 
+
